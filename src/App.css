@@ -1,0 +1,77 @@
+/* Font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.input{
+  border: none;
+  font-family: 'Roboto Slab', serif;
+}
+
+.my-btn{
+  background-color: #0099cc;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+  font-family: 'Roboto Slab', serif;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Masculine colors */
+
+body {
+  background-color: #1a1a1a; /* Dark gray */
+  color: #fff; /* White */
+}
+
+.input {
+  background-color: #333; /* Dark gray */
+  padding: 10px;
+  color: #fff; /* White */
+}
+
+.my-btn {
+  background-color: #006699; /* Dark blue */
+  transition: background-color 0.2s ease;
+}
+
+.my-btn:hover {
+  background-color: #0077b3; /* Blue */
+}
+
+table {
+  background-color: #2b2b2b; /* Dark gray */
+}
+
+th {
+  background-color: #0099cc; /* Blue */
+  color: #fff; /* White */
+}
+
+td {
+  background-color: #4d4d4d; /* Gray */
+  color: #fff; /* White */
+}
